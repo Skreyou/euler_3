@@ -5,8 +5,8 @@ def simple_div(num):
             num //= count
         else:
             count += 1
-    return count
+    return num
 
 if __name__ == "__main__":
-    n = 13195
+    n = 600851475143
     print(simple_div(n))
